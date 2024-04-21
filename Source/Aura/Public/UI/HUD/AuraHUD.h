@@ -12,7 +12,7 @@ class UOverlayWidgetController;
 class UAuraUserWidget;
 struct FWidgetControllerParams;
 /**
- * 
+ *
  */
 UCLASS()
 class AURA_API AAuraHUD : public AHUD
@@ -21,7 +21,7 @@ class AURA_API AAuraHUD : public AHUD
 public:
 
 	UPROPERTY()
-	TObjectPtr<UAuraUserWidget> OverlayWidget;
+	TObjectPtr<UAuraUserWidget>  OverlayWidget;
 
 	UOverlayWidgetController* GetOverlayWidgetController(const FWidgetControllerParams& WCParams);
 
