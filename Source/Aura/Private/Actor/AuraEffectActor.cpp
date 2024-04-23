@@ -36,7 +36,7 @@ void AAuraEffectActor::RemoveInstantEffectFromTarget(AActor* TargetActor, TSubcl
 	UAbilitySystemComponent* TargetASC = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(TargetActor);
 	if (TargetASC == nullptr) return;
 
-	TargetASC->RemoveActiveGameplayEffectBySourceEffect(InfiniteGameplayEffectClass, TargetASC, -1);
+	TargetASC->RemoveActiveGameplayEffectBySourceEffect(InfiniteGameplayEffectClass, TargetASC, 1);
 }
 
 void AAuraEffectActor::OnOverlap(AActor* TargetActor)
