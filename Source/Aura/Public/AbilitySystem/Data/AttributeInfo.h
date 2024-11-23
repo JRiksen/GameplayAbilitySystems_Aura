@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "AttributeSet.h"
 #include "Engine/DataAsset.h"
 #include "GameplayTagContainer.h"
 #include "AttributeInfo.generated.h"
