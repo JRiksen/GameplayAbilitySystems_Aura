@@ -14,6 +14,7 @@
 #include "Input/AuraInputComponent.h"
 #include "GameFramework/Character.h"
 #include "UI/Widget/DamageTextComponent.h"
+#include "Containers/Set.h"
 
 AAuraPlayerController::AAuraPlayerController()
 {
