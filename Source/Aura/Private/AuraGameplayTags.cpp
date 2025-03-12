@@ -86,6 +86,15 @@ GameplayTags.Attributes_Secondary_MaxMana = UGameplayTagsManager::Get().AddNativ
 	);
 
 /*
+ * Meta Attributes
+ */
+
+GameplayTags.Attributes_Meta_IncomingXP = UGameplayTagsManager::Get().AddNativeGameplayTag(
+	FName("Attributes.Meta.IncomingXP"),
+	FString("Incoming XP Meta Attribute")
+	);
+	
+/*
  * Input Tags
  */
 
